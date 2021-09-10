@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+
+<h1>Compose</h1>
+<form class="item" action="/compose" method="POST">
+    <h4>Title</h4>
+    <input name="postTitle" type="title-text" placeholder="blog's title" maxlength="75" autofocus required>
+    <h4>Post</h4>
+    <textarea class="form-control" name="postBody" id="" cols="30" rows="10" required ></textarea>
+
+    <button class="btn btn-outline-primary publish-btn">Publish</button>
+</form>
